@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # My First Personal Portfolio Website
 
 ## Project Overview
@@ -136,4 +136,4 @@ Siwaphiwe Siboto
 ## GitHub Pages / Live Link
 - GitHub link: [Insert GitHub link]
 - Live website link: [Insert deployed link, if available]
->>>>>>> 1e9fa1195e83095fd33999c2b8c3b0f32260240f
+
