@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2 class="logo">My Portfolio</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-section contact-section">
+            <h1>Contact Me</h1>
+            <p>If you have a question or want to work together, please fill out the form below.</p>
+
+<form
+    action="https://formspree.io/f/xeedypao"
+    method="POST"
+>   <!-- keep helpful hidden fields -->
+    <input type="hidden" name="_subject" value="New contact from portfolio">
+    <input type="hidden" name="_captcha" value="false">
+
+    <label>
+        Name:
+        <input type="text" name="name" required>
+    </label>
+
+    <label>
+        Surname:
+        <input type="text" name="surname" required>
+    </label>
+
+    <label>
+        Phone Number:
+        <input type="tel" name="phone" required>
+    </label>
+
+    <label>
+        Service Needed:
+        <select id="service" name="service">
+            <option value="">Select a service</option>
+            <option value="web-design">Web Design</option>
+            <option value="graphic-design">Graphic Design</option>
+            <option value="consultation">Consultation</option>
+        </select>
+    </label>
+
+    <label>
+        Your Email:
+        <input type="email" name="email" required>
+    </label>
+
+    <label>
+        Your Message:
+        <textarea name="message" required></textarea>
+    </label>
+
+    <button type="submit">Send</button>
+</form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Siwaphiwe Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
