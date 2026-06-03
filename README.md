@@ -133,7 +133,3 @@ I am proud of how the website feels personal and structured. Next, I would impro
 ## Author
 Siwaphiwe Siboto
 
-## GitHub Pages / Live Link
-- GitHub link: [Insert GitHub link]
-- Live website link: [Insert deployed link, if available]
-
