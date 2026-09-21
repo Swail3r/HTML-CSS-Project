@@ -1,7 +1,5 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
-import Hero from './components/Hero.vue'
-import Skills from './components/Skills.vue'
 import Footer from './components/Footer.vue'
 </script>
 
@@ -9,8 +7,7 @@ import Footer from './components/Footer.vue'
     <Navbar />
 
     <main>
-        <Hero />
-        <Skills />
+        <RouterView />
     </main>
 
     <Footer />

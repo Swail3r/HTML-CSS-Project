@@ -1,0 +1,87 @@
+<template>
+    <section class="about-section">
+        <h1>About Me</h1>
+
+        <p>
+            My name is Siwaphiwe and I am a beginner web developer.
+            I have a passion for learning and creating things with code.
+            I am currently focused on improving my skills in HTML and CSS,
+            and I am excited to build a portfolio of projects that showcase
+            my abilities. In addition to web development, I have a strong
+            interest in technology, sailing, and gaming. I am always eager
+            to take on new challenges and expand my knowledge in the field
+            of web development.
+        </p>
+
+        <h2>My Interests</h2>
+
+        <div class="interests-grid">
+            <div class="interest-card">
+                <img
+                    src="https://img.icons8.com/ios-filled/120/00f7ff/source-code.png"
+                    alt="Web Development"
+                >
+                <h3>Web Development</h3>
+                <p>
+                    Creating responsive websites with HTML, CSS, and clean design.
+                </p>
+            </div>
+
+            <div class="interest-card">
+                <img
+                    src="https://img.icons8.com/ios-filled/120/00f7ff/monitor.png"
+                    alt="Technology"
+                >
+                <h3>Technology</h3>
+                <p>
+                    Exploring new tools, gadgets, and digital innovation every day.
+                </p>
+            </div>
+
+            <div class="interest-card">
+                <img
+                    src="https://i.ibb.co/MkCM45vz/9-A6220-F6-C055-4320-BAFD-A3-D3-C56-B759-F.png"
+                    alt="Sailing"
+                >
+                <h3>Sailing</h3>
+                <p>
+                    Enjoying the sea and learning more about sailing and navigation.
+                </p>
+            </div>
+
+            <div class="interest-card">
+                <img
+                    src="https://img.icons8.com/ios-filled/120/00f7ff/controller.png"
+                    alt="Gaming"
+                >
+                <h3>Gaming</h3>
+                <p>
+                    Playing games that inspire creativity and fun challenges.
+                </p>
+            </div>
+        </div>
+
+        <h2>Learning Journey</h2>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Year</th>
+                <th>Activity</th>
+            </tr>
+            </thead>
+
+          <tbody> 
+              <tr>
+                <td>2021</td>
+                <td>Started Learning Sailing and fundamentals</td>
+             </tr>
+
+               <tr>
+                <td>2026</td>
+                <td>Started learning HTML and CSS</td>          
+               </tr>
+          </tbody>
+        </table>
+    </section>
+</template>

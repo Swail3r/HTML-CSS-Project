@@ -4,10 +4,21 @@
             <h2 class="logo">My Portfolio</h2>
 
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <RouterLink to="/">Home</RouterLink>
+                </li>
+
+                <li>
+                    <RouterLink to="/about">About</RouterLink>
+                </li>
+
+                <li>
+                    <RouterLink to="/projects">Projects</RouterLink>
+                </li>
+
+                <li>
+                    <RouterLink to="/contact">Contact</RouterLink>
+                </li>
             </ul>
         </nav>
     </header>
