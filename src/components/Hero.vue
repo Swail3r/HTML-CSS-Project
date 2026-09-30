@@ -4,15 +4,14 @@
             <h1>Hi, I'm Siwaphiwe</h1>
 
             <p>
-                I am a beginner web developer learning HTML and CSS.
-                I am passionate about creating beautiful and functional
-                websites. I am currently working on improving my skills
-                and building a portfolio of projects to showcase my work.
+                I'm a junior full-stack developer with a passion for building useful and creative applications. 
+                I enjoy learning by building, solving problems, and taking on new challenges that help me grow as a developer. 
+                I’m continuing to improve my skills and explore new technologies while building projects that showcase what I can do.
             </p>
 
-            <a href="projects.html" class="button">
+            <router-link to="/projects" class="button">
                 View My Projects
-            </a>
+            </router-link>
         </div>
 
         <div class="hero-image">

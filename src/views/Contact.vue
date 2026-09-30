@@ -59,14 +59,18 @@
         <label for="service">Service Needed</label>
 
         <select
-          id="service"
-          name="service"
-        >
-          <option value="">Select a service</option>
-          <option value="web-design">Web Design</option>
-          <option value="graphic-design">Graphic Design</option>
-          <option value="consultation">Consultation</option>
-        </select>
+  id="service"
+  name="service"
+>
+  <option value="">Select a service</option>
+  <option value="web-development">Web Development</option>
+  <option value="frontend-development">Frontend Development</option>
+  <option value="backend-development">Backend Development</option>
+  <option value="full-stack-development">Full-Stack Development</option>
+  <option value="website-design">Website Design</option>
+  <option value="website-maintenance">Website Maintenance</option>
+  <option value="consultation">Development Consultation</option>
+</select>
       </div>
 
       <div>

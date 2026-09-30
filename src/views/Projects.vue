@@ -23,6 +23,12 @@ const projects = [
     description:
       'A collection of small Python scripts for automating common tasks.',
     technologies: ['Python']
+  },
+  {
+    title: 'Modern Tech',
+    description:
+      'A simple Human Resource Management System',
+    technologies: ['JavaScript', 'HTML', 'CSS','Bootstrap','Node.js']
   }
 ]
 </script>

@@ -1,73 +1,162 @@
-# Vue 3 + Vite
-
-# My First Personal Portfolio Website
+# My Personal Portfolio Website
 
 ## Project Overview
-This is a beginner-friendly personal portfolio website built using HTML and CSS. It introduces who I am, shares what I have learned, highlights my skills, and includes a contact form.
+
+This is my personal portfolio website, built with **Vue 3 and Vite**. It introduces who I am, showcases my skills and projects, and shares my learning journey as a junior full-stack developer.
+
+The portfolio has developed from my original HTML and CSS project into a Vue-based application as I continued learning and improving my web development skills.
 
 ## Purpose
-The website is designed to be a simple portfolio showcase that reflects my personality, learning progress, and creativity as a beginner web developer.
+
+The purpose of this website is to showcase my development journey, skills, projects, and interests while giving visitors an idea of who I am as a developer.
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* Vue 3
+* Vite
+* Vue Router
+* Git
+* GitHub
 
 ## Features
-- Home / hero section with introduction
-- Navigation bar for easy section access
-- About section with personal interests
-- Skills section with cards and a progress table
-- Projects and learning section with links
-- Learning journey timeline
-- Contact form with labels and input fields
-- Responsive layout for mobile and desktop
-- Footer with site details
 
-## HTML Concepts Used
-- `<!DOCTYPE html>` and semantic document structure
-- `html`, `head`, and `body`
-- `title` and meta tags
-- Headings, paragraphs, links, images, lists, and tables
-- Form elements with `label`, `input`, `textarea`, and `button`
-- Semantic elements: `header`, `nav`, `main`, `section`, `article`, and `footer`
-- Comments and readable indentation
+* Home page with introduction and hero section
+* Navigation bar
+* About page
+* Skills section
+* Projects section
+* Contact page
+* Responsive design for desktop and mobile
+* Reusable Vue components
+* Vue Router for page navigation
+* Interactive UI elements
+* Footer with site information
 
-## CSS Concepts Used
-- External stylesheet linked from HTML
-- Selectors, classes, and IDs
-- Colors, fonts, margins, padding, borders, and box model
-- Background gradients and shadows
-- Image styling and hover effects
-- Flexbox and CSS Grid layout
-- Responsive design using media queries
-- Smooth scrolling and button transitions
+## Vue Concepts Used
 
-## How to View the Project
-1. Open `index.html` in a web browser.
-2. Alternatively, host the project in a local web server and navigate to `index.html`.
+* Vue components
+* Single File Components (`.vue`)
+* Template syntax
+* Component-based structure
+* Props and reactive data
+* Vue Router
+* Reusable components
+* Dynamic content
+
+## HTML & CSS Concepts Used
+
+* Semantic HTML structure
+* Headings, paragraphs, links, images, and lists
+* Forms and input fields
+* CSS selectors and classes
+* Flexbox and CSS Grid
+* Responsive design
+* Media queries
+* Hover effects and transitions
+* Spacing, typography, colors, and layout
+
+## JavaScript Concepts Used
+
+* Variables and data
+* Functions
+* Arrays and objects
+* Events
+* Conditional rendering
+* Working with Vue components
+* Basic application logic
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── Navbar.vue
+│   ├── Hero.vue
+│   ├── Skills.vue
+│   └── Footer.vue
+├── views/
+│   ├── Home.vue
+│   ├── About.vue
+│   ├── Projects.vue
+│   └── Contact.vue
+├── App.vue
+├── main.js
+└── style.css
+```
+
+## How to Run the Project
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repository-link>
+```
+
+### 2. Open the project
+
+```bash
+cd <project-folder>
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Then open the local URL provided by Vite in your browser.
 
 ## Challenges Faced
-I practiced building a coherent layout while keeping spacing consistent and making sure the navigation and sections felt balanced.
+
+One of my main challenges was converting my original HTML and CSS portfolio into a Vue application. I had to learn how to structure the project using components, views, and Vue Router while making sure my existing styling continued to work correctly.
+
+I also worked on making the portfolio responsive and keeping the different sections consistent across the website.
 
 ## What I Learned
-- How to organize a single-page portfolio with multiple sections
-- How to use CSS Grid and media queries for responsive design
-- How to build a contact form and a structured table section
+
+* How to build a website using Vue 3 and Vite
+* How to create and reuse Vue components
+* How to use Vue Router for navigation
+* How to structure a frontend project
+* How to create responsive layouts
+* How to combine HTML, CSS, and JavaScript with Vue
+* How to use Git and GitHub to manage my project
+* How to troubleshoot issues while developing
 
 ## Future Improvements
-- Add a real profile photo and a small image gallery
-- Create multiple pages for About, Projects, and Contact
-- Deploy the portfolio to GitHub Pages or Netlify
+
+* Add more completed projects
+* Add a downloadable CV
+* Improve animations and interactions
+* Add more detailed project case studies
+* Continue improving accessibility and responsiveness
+* Deploy future updates and keep the portfolio up to date
 
 ## Reflection
-I built a personal portfolio website that introduces me and highlights beginner web development skills. I chose a clean and friendly design because I want my site to look organized, welcoming, and easy to read. The website shows that I care about structure, accessibility, and a clear visual style.
 
-I used HTML concepts like semantic sections, headings, lists, tables, and forms. I used CSS concepts like layout, spacing, colors, responsive media queries, and hover animations. One challenge I faced was arranging sections so they fit well on both desktop and mobile screens. I overcame it by using CSS Grid and responsive breakpoints.
+This portfolio represents my growth as a developer. I started by building a simple portfolio using HTML and CSS and later developed it into a Vue 3 application as my skills improved.
 
-I am proud of how the website feels personal and structured. Next, I would improve it by adding more real project examples, a downloadable CV button, and deploying it live.
+Working on the project has helped me understand how frontend applications are structured and how different technologies can work together. It has also given me the opportunity to practice problem-solving, debugging, responsive design, and working with Git and GitHub.
+
+I am proud of how the portfolio has developed and I plan to continue improving it as I learn more and build new projects.
 
 ## Author
-Siwaphiwe Siboto
 
-## GitHub Pages / Live Link
-- GitHub link: [Insert GitHub link]
-- Live website link: [Insert deployed link, if available]
+**Siwaphiwe Siboto**
 
+Junior Full-Stack Developer
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Live Website
+
+* Live website: [Insert deployed link here]
+
