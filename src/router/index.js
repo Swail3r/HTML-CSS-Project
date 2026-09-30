@@ -6,7 +6,7 @@ import Projects from '../views/Projects.vue'
 import Contact from '../views/Contact.vue'
 
 const router = createRouter({
-  history: createWebHistory('HTML-CSS-Project'),
+  history: createWebHistory(import.meta.env.BASE_URL),
 
   routes: [
     {
